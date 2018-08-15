@@ -1,0 +1,356 @@
+html{
+  font-family: 'Dancing Script', cursive;
+  background-color: #02010a;
+  align-content: center;
+}
+header{
+  background-color: #5b7989;
+  border-radius: 12px 12px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  animation: slidein 3s;
+}
+body{
+  margin: 20px;
+}
+.contenido1{
+  display: inline;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 70%;
+}
+h1{
+  color: white;
+  text-shadow: 1px 2px 3px #02010a;
+  text-align: left;
+  padding: 1%;
+}
+header nav{
+  display: inline;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 30%;
+}
+nav:active{
+  text-decoration: underline;
+}
+header a{
+  color: white;
+  text-align: right;
+  padding: 6%;
+  text-decoration: none;
+}
+#inicio{
+  background-color: #82c3a6;
+  padding: 10px 0px 10px 0px;
+}
+#secundario{
+  background-color: #d5c75f;
+  border: 1px;
+  display: flex;
+  flex-flow: row;
+  margin: 0.5px;
+  text-decoration: underline;
+  text-align: center;
+}
+#paisaje:hover{
+  transform: rotate(10deg);
+  -webkit-filter: drop-shadow(2px 2px 2px #82c3a6);
+  filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+#retrato:hover{
+  transform: translate3d(20px, -5px, 0px);
+  -webkit-filter: drop-shadow(2px 2px 2px #82c3a6);
+  filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+img{
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+}
+p{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.contacto{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 25px;
+}
+.terminos{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 25px;
+}
+.redes{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 25px;
+}
+.derechos{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 25px;
+}
+@media screen and (min-width:900px){
+  #wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+  #inicio{
+    width: 100%;
+  }
+  #retrato{
+    width: 50%;
+  }
+  #paisaje{
+    width: 50%;
+  }
+  .contacto{
+    width: 25%;
+  }
+  .terminos{
+    width: 25%;
+  }
+  .redes{
+    width: 25%;
+  }
+  .derechos{
+    width: 25%;
+  }
+  #contenido{
+    width: 900px;
+  }
+  #cuerpo{
+    display: flex;
+    flex-direction: row;
+  }
+  .imagen1{
+    width: 33.3%;
+  }
+  .imagen2{
+    width: 33.3%;
+  }
+  .imagen3{
+    width: 33.3%;
+  }
+  .imagen4{
+    width: 33.3%;
+  }
+  .imagen5{
+    width: 33.3%;
+  }
+  .imagen6{
+    width: 33.3%;
+  }
+  #cuerpo{
+    display: flex;
+    flex-direction: column;
+  }
+  .box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .imagen1{
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    margin: 10px;
+  }
+  .imagen2{
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    margin: 10px;
+  }
+  .imagen3{
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    margin: 10px;
+  }
+  .imagen4{
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    margin: 10px;
+  }
+  .imagen5{
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    margin: 10px;
+  }
+  .imagen6{
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width:899px){
+  #wrapper{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #inicio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #secundario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .terminos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .redes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .derechos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+  .imagen1{
+    width: 100%;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagen2{
+    width: 100%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagen3{
+    width: 100%;
+    order: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  .box1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+  .imagen4{
+    width: 100%;
+    order: 4;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagen5{
+    width: 100%;
+    order: 5;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagen6{
+    width: 100%;
+    order: 6;
+    display: flex;
+    flex-direction: column;
+  }
+  header{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  header nav{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+  }
+}
+#cuerpo{
+  background-color: #82c3a6;
+  padding: 10px;
+  align-items: center;
+}
+.imagen1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  width: 33.3%;
+  margin: 10px;
+}
+.imagen2{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 33.3%;
+  margin: 10px;
+}
+.imagen3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+  width: 33.3%;
+  margin: 10px;
+}
+.imagen4{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 33.3%;
+  margin: 10px;
+}
+.imagen5{
+  width: 33.3%;
+  margin: 10px;
+}
+.imagen6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 33.3%;
+  margin: 10px;
+}
